@@ -1,0 +1,30 @@
+#header {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+#titleContainer {
+  margin: auto;
+}
+
+#navBarContainer ul {
+  display: flex;
+}
+
+#navBarContainer ul li {
+  margin: auto;
+}
+
+li {
+  list-style-type: none;
+}
+li a {
+  text-decoration: none;
+  margin: auto 15px;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
