@@ -1,0 +1,50 @@
+@media (min-width: 320px) {
+  /* smartphones, iPhone, portrait 480x320 phones */
+
+  #navBarContainer {
+    margin: 25px auto;
+  }
+
+  li {
+    list-style-type: none;
+    margin: 10px auto;
+  }
+
+  li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  a:visited {
+    color: black;
+  }
+}
+
+@media (min-width: 961px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+
+@media (min-width: 1025px) {
+  /* big landscape tablets, laptops, and desktops */
+  #header {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+  }
+
+  #titleContainer {
+    margin: auto;
+  }
+
+  #navBarContainer ul {
+    display: flex;
+  }
+
+  #navBarContainer ul li {
+    margin: auto;
+  }
+
+  li a {
+    margin: auto 15px;
+  }
+}

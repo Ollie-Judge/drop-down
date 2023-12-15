@@ -1,30 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
 #header {
-  display: flex;
-  flex-direction: row;
+  text-align: center;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#header:after {
+  opacity: 0.5;
 }
 
 #titleContainer {
-  margin: auto;
-}
-
-#navBarContainer ul {
-  display: flex;
-}
-
-#navBarContainer ul li {
-  margin: auto;
-}
-
-li {
-  list-style-type: none;
-}
-li a {
-  text-decoration: none;
-  margin: auto 15px;
   color: black;
 }
 
-a:visited {
-  color: black;
+h1 {
+  margin: 25px auto;
+}
+
+#menuTitle {
+  margin: 20px auto;
+}
+
+#responsiveMenuButton {
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+  bottom: 0;
+}
+
+#navbarContainer {
+  visibility: hidden;
+  margin: auto auto 20px;
+}
+
+img {
+  overflow: hidden;
 }
